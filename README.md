@@ -79,9 +79,26 @@ ORDER BY PerformanceKPIs.AverageLoadFactor DESC, PerformanceKPIs.OnTimePerforman
 ## 📑 Reports (Generated in MS Access)
 The following reports were created and exported as PDFs:
 
-📌 **[Top 5 Most Profitable Companies Report](./Reports/Top_5_Profitable_Companies.pdf)**  
+📌 **[Top 5 Most Profitable Companies Report](./Reports/Top_5_Profitable_Companies-2024.pdf)**  
 📌 **[Revenue Trends by Industry Report](./Reports/Revenue_Trends_by_Industry.pdf)**  
 📌 **[Operational Efficiency Report](./Reports/Operational_Efficiency_Report.pdf)**  
+📌 **[Fleet Size vs. On-Time Performance Report](./Reports/FleetSize_vs_OnTimePerformance_Report.pdf)**
+
+## How to Use This Project
+1️⃣ **View Reports** (No Setup Required)
+- Download and open the PDF reports from this repository.
+- These reports contain key insights on profitability, industry revenue trends, and operational efficiency.
+2️⃣ **Run SQL Queries** (For Advanced Users)
+- Open Microsoft Access and load `Transport_Benchmarking.accdb`.
+- Go to the `Queries` section and run any of the saved SQL queries.
+- You can modify or extend queries to perform further analysis.
+
+
+## Repository Contents
+📁 `Transport_Benchmarking.accdb` - The Microsoft Access Database
+📁 `SQL_Queries.sql` - Contains all SQL queries used in the project
+📁 `Reports/` - Folder containing exported PDF reports
+📁 `README.md` - Documentation of the project
 
 
 ## Conclusion
