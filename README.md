@@ -1,5 +1,17 @@
 # Transport & Logistics Industry Benchmarking - SQL & MS Access Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Key Objectives](#key-objectives)
+- [Technologies Used](#technologies-used)
+- [Dataset & Database Schema](#dataset--database-schema)
+- [SQL Queries & Insights](#sql-queries--insights)
+- [Reports (Generated in MS Access)](#reports-generated-in-ms-access)
+- [How to Use This Project](#how-to-use-this-project)
+- [Repository Contents](#repository-contents)
+- [Conclusion](#conclusion)
+
+  
 ## Project Overview
 This project **analyzes financial performance and operational efficiency** in the **transport and logistics industry** using **Microsoft Access & SQL**. It benchmarks top companies across **logistics, airlines, shipping, rail freight, and port operations**.
 
@@ -76,7 +88,7 @@ ORDER BY PerformanceKPIs.AverageLoadFactor DESC, PerformanceKPIs.OnTimePerforman
 - DHL ranks highest with a 90% Load Factor & 95% OTP
 - FedEx, Lufthansa, CMA CGM, and Air France-KLM also show strong efficiency
 
-## 📑 Reports (Generated in MS Access)
+## Reports (Generated in MS Access)
 The following reports were created and exported as PDFs:
 
 📌 **[Top 5 Most Profitable Companies Report](./Reports/Top_5_Profitable_Companies-2024.pdf)**  
@@ -85,20 +97,20 @@ The following reports were created and exported as PDFs:
 📌 **[Fleet Size vs. On-Time Performance Report](./Reports/FleetSize_vs_OnTimePerformance_Report.pdf)**
 
 ## How to Use This Project
-1️⃣ **View Reports** (No Setup Required)
-- Download and open the PDF reports from this repository.
-- These reports contain key insights on profitability, industry revenue trends, and operational efficiency.
-2️⃣ **Run SQL Queries** (For Advanced Users)
-- Open Microsoft Access and load `Transport_Benchmarking.accdb`.
-- Go to the `Queries` section and run any of the saved SQL queries.
-- You can modify or extend queries to perform further analysis.
+1. **View Reports** (No Setup Required)
+    - Download and open the PDF reports from this repository.
+    - These reports contain key insights on profitability, industry revenue trends, and operational efficiency.
+2. **Run SQL Queries** (For Advanced Users)
+    - Open Microsoft Access and load `Transport_Benchmarking.accdb`.
+    - Go to the `Queries` section and run any of the saved SQL queries.
+    - You can modify or extend queries to perform further analysis.
 
 
 ## Repository Contents
-📁 `Transport_Benchmarking.accdb` - The Microsoft Access Database
-📁 `SQL_Queries.sql` - Contains all SQL queries used in the project
-📁 `Reports/` - Folder containing exported PDF reports
-📁 `README.md` - Documentation of the project
+- `Transport_Benchmarking.accdb` - The Microsoft Access Database
+- `SQL_Queries.sql` - Contains all SQL queries used in the project
+- `Reports/` - Folder containing exported PDF reports
+- `README.md` - Documentation of the project
 
 
 ## Conclusion
